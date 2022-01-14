@@ -1,7 +1,6 @@
 body{
     text-align: center;
-    background-color: rgb(43, 122, 226);
-    margin: 36px 200px 36px 200px;
+    margin: 0.5% 0.5% 0 0.5%;
 }
 .StrangePicture{
     display: flex;
@@ -11,23 +10,24 @@ body{
     gap: 15px;
     background-color: turquoise;
     padding: 5%;
-    //padding-top: 5%
-    //padding-bottom: 5%;
+    margin: 3%;
+    border-radius: 15px;
 }
 #img-div{
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 .title-one{
     color:tomato;
     font-size:50px;
     font-weight: bolder;
     margin-bottom: 15px;
-    //background-color:rgb(122, 187, 212);
 }
 #tribute-link{
     font-size: 25px;
     font-weight: bold;
+    margin-bottom: 5%;
 }
 ul{
     display: flex;
@@ -44,6 +44,7 @@ li{
 .last-text{
     font-size: 25px;
     font-weight: bold;
+    
 }
 #tribute-info{
     margin-top: 55px;
@@ -52,6 +53,10 @@ li{
     
 }
 .total{
-    //background-color:rgb(122, 187, 212);
     font-weight: bold;
+    margin-bottom: 55px;
+}
+#main{
+    background-color: rgb(43, 122, 226);
+  
 }
