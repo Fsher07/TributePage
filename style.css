@@ -1,13 +1,23 @@
 body{
     text-align: center;
+    background-color: rgb(43, 122, 226);
 }
 .StrangePicture{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 25px;
    
 }
 #img-div{
     max-width: 100%;
     height: auto;
+}
+.title-one{
+    color:cornsilk;
+    font-size:50px;
+    font-weight: bolder;
+}
+#tribute-link{
+    font-size: 25px;
 }
