@@ -1,13 +1,14 @@
 body{
     text-align: center;
     background-color: rgb(43, 122, 226);
+    margin: 36px 200px 36px 200px;
 }
 .StrangePicture{
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 25px;
-   
+    gap: 15px;
 }
 #img-div{
     max-width: 100%;
@@ -17,7 +18,28 @@ body{
     color:cornsilk;
     font-size:50px;
     font-weight: bolder;
+    margin-bottom: 15px;
+    background-color: gray;
 }
 #tribute-link{
     font-size: 25px;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 490px;
+    margin-bottom: 55px;
+}
+li{
+    font-size: 25px;
+}
+.last-text{
+    font-size: 25px;
+    font-weight: bold;
+}
+#tribute-info{
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
